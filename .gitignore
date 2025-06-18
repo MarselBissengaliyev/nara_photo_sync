@@ -1,0 +1,29 @@
+# Игнор виртуального окружения
+.venv/
+.venvv/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файлы логов и временные
+*.log
+output/
+mock_campare/
+transfers_log.txt
+
+# Настройки IDE и системные файлы
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Файлы подписок (если чувствительные)
+subscriprs.json
+
+# Если хочешь игнорировать output CSV/JSON и т.п.
+*.csv
+*.json
+
+# Оставляем .py, README.md и requirements.txt — их НЕ игнорируем
